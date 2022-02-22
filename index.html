@@ -1,0 +1,148 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>this web through css</title>
+<style>
+body{
+color:white;
+margin: 0px;
+padding:opx;
+background-image:url("fitness.jpg");
+}
+.left{
+position:absolute;
+left:34px;
+top:18px;
+display:inline-block;
+
+}
+
+.mid{
+display:block;
+width:50%;
+margin:29px auto;
+
+}
+
+.right{
+position:absolute;
+right:34px;
+top:29px;
+display:inline-block;
+
+}
+.nav{
+display:inline-block;
+}
+
+.navbar li{
+display:inline-block;
+font-size:20px;
+}
+
+.navbar li a{
+color:white;
+text-decoration:none;
+padding:34px;
+}
+
+.navbar li a:hover,.navbar li a.active{
+text-decoration:underline;
+color:gray;
+}
+.left img{
+width:100px;
+}
+
+.left{
+text-align:center;
+line-height:19px;
+}
+.btn{
+margin:0px 9px;
+background-color:pink;
+color:black;
+padding:4px 14px;
+
+font-size:15px;
+cursor:pointer;
+}
+
+.btn:hover{
+background-color:green;
+}
+.container{
+margin:100px 50px;
+padding:30px 2px;
+width:33%;
+border-radius:28px;
+}
+.form-group input{
+text-align:center;
+display:block;
+width:330px;
+padding:10px;
+border:2px solid gray;
+margin:3px auto;
+font-size:20px;
+border-radius:8px;
+}
+.container h1{
+text-align:center;
+}
+
+.container button{
+font-size:20px;
+display:block;
+width:23%;
+margin:15px auto;
+
+} 
+</style>
+</head>
+<body>
+<header class="header">
+<div  class="left">
+<img src="gym.jpg" name="image">
+        <div>Amit gym</div>
+</div>
+
+
+<div  class="mid">
+<ul class="navbar">
+      <li><a href="#" class="active">Home</a></li>
+	  <li><a href="#">about us</a></li>
+	  <li><a href="#">fitness calculator</a></li>
+	  <li><a href="#">contact us</a></li>
+</ul>
+ </div>
+<div  class="right">
+<button class="btn">call us now</button>
+<button class="btn">email us</button>
+</div>
+
+</header>
+
+<div class="container">
+  <h1>join the best gym of tumsar</h1>
+  <form action="noaction.php">
+               <div class="form-group">
+            <input type="text" name="amit" placeholder="enter your name"
+              </div>
+			  
+                 <div class="form-group">
+                   <input type="text" name="amit" placeholder="enter your age"
+                   </div>
+				   
+                 <div class="form-group">
+                <input type="text" name="amit" placeholder="enter your gender"
+                  </div>
+				  
+                <div class="form-group">
+              <input type="text" name="amit" placeholder="enter your address"
+                 </div>
+			<button class="btn">submit</button>	 
+  </form>
+</div>
+</body>
+</html>
